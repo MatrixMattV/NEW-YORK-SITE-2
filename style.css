@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 20vh;
+    background: url("pexels-yura-forrat-19927917.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+header button {
+    outline: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    background: red;
+    color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+    color: aliceblue;
+    max-width: 1200px;
+}
+
+.main-content h1 {
+    font-size: 4rem;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    background: lightskyblue;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
